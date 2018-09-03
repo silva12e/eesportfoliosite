@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);.experience-section {
+  background: #25274d;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(7%, #25274d), color-stop(19%, #25274d), to(#00d4ff));
+  background: linear-gradient(180deg, #25274d 7%, #25274d 19%, #00d4ff 100%);
+}
+
+.experience-title {
+  color: #fff;
+  font-family: 'Patua One', cursive;
+}
+
+.container .ees {
+  font-family: 'Patua One', cursive;
+}
+
+.experience-section {
+  padding: 40px;
+}
+
+.experience-header {
+  margin-bottom: 40px;
+  font-family: 'Patua One', cursive;
+}
+
+.experience-header h1 span {
+  width: 20%;
+  margin-top: 5px;
+}
+
+.header-font {
+  font-family: 'Patua One', cursive;
+}
+
+.experience-titles span {
+  color: #4A9CE7 !important;
+  font-family: 'Patua One', cursive;
+  font-weight: lighter;
+}
+
+.main-section {
+  background-color: #fff;
+}
+
+.main-section .title {
+  color: #000 !important;
+}
+
+.footer {
+  background-color: #fff;
+}
+
+.arrow {
+  text-align: center;
+  margin: 8% 0;
+}
+
+.fa-arrow-circle-down {
+  font-size: 80px;
+  color: #25274d;
+}
+
+.fa-arrow-circle-down:Hover {
+  color: #51A8CF;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  -webkit-transition: opacity 2s;
+  transition: opacity 2s;
+  -webkit-animation: bounce 2s infinite;
+          animation: bounce 2s infinite;
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+

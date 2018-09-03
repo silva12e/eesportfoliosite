@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import 'variables';
+@import 'styles/main.scss';
+@import "styles/experience";
+.container .ees{
+    font-family: 'Patua One', cursive;
+}
+.experience-section {
+    padding: 40px;
+}
+.experience-header {
+    margin-bottom: 40px;
+    font-family: 'Patua One', cursive;
+}
+.experience-header h1 span{
+    width: 20%;
+    margin-top:5px;
+}
+.header-font {
+    font-family: 'Patua One', cursive;
+}
+.experience-titles span {
+    color: #4A9CE7 !important;
+    font-family: 'Patua One', cursive;
+    font-weight: lighter;
+}
+.main-section {
+    background-color: #fff;
+}
+.main-section .title {
+    color: #000 !important;
+}
+.footer {
+    background-color: #fff;
+}
+.arrow {
+    text-align: center;
+    margin: 8% 0;
+}
+
+.fa-arrow-circle-down {
+    font-size: 80px;
+    color: rgb(37,39,77);
+}
+.fa-arrow-circle-down:Hover {
+    color:#51A8CF;
+}
+.fade-enter-active, .fade-leave-active {
+    transition: opacity 2s;
+    animation: bounce 2s infinite;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0;
+    transition: all .3s ease;
+}
